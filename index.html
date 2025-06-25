@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="test"></h2>
+
+    <script>
+        const picoIp = '192.168.131.192';
+        // const picoIp = '172.16.131.69';
+
+        const SOCKET = new WebSocket("ws://" + picoIp + "/test");
+
+        SOCKET.addEventListener("message", event => {
+            console.log(event.data)
+            const text = new Blob([event.data], {type:"text/plain"});
+            text.text().then(text => {
+                document.getElementById("test").innerHTML = text + "</br>"
+            });
+        });
+    </script>
+</body>
+</html>
