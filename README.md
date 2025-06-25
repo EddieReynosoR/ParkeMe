@@ -50,7 +50,7 @@ This system builds upon previous research on mechanical parking systems and smar
 ## 💻 Code Structure
 
 - `Car_Parking_System_LCD`: Arduino code for monitoring 6 IR sensors and sending data via UART.
-- `entrance_system.ino`: Arduino code for RFID-based gate control and LCD messages.
+- `Parking_Entrance.ino`: Arduino code for RFID-based gate control and LCD messages.
 - `microdot.py`: Python code for Raspberry Pi Pico W to serve parking data over Wi-Fi.
 
 ## 🌐 Remote Access
