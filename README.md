@@ -4,7 +4,7 @@ A final integrative systems project that implements a **Smart Parking System** u
 
 ## 📌 Project Overview
 
-The system uses **IR sensors** to detect parked vehicles, **ultrasonic sensors** to detect entry/exit, and an **RFID module** to control secure access. It integrates with a **Raspberry Pi Pico W**, which transmits parking data over Wi-Fi to external interfaces such as mobile apps or web applications. This project aims to optimize urban parking efficiency and enhance user convenience.
+The system uses **IR sensors** to detect parked vehicles, **ultrasonic sensors** to detect entry/exit, and an **RFID module** to control secure access. It integrates with a **Raspberry Pi Pico W**, which transmits parking data over Wi-Fi to external interfaces such as mobile apps or web applications using **WebSockets**. This project aims to optimize urban parking efficiency and enhance user convenience.
 
 ## 🎯 Objectives
 
@@ -49,9 +49,9 @@ This system builds upon previous research on mechanical parking systems and smar
 
 ## 💻 Code Structure
 
-- `parking_slots.ino`: Arduino code for monitoring 6 IR sensors and sending data via UART.
+- `Car_Parking_System_LCD`: Arduino code for monitoring 6 IR sensors and sending data via UART.
 - `entrance_system.ino`: Arduino code for RFID-based gate control and LCD messages.
-- `web_server.py`: Python code for Raspberry Pi Pico W to serve parking data over Wi-Fi.
+- `microdot.py`: Python code for Raspberry Pi Pico W to serve parking data over Wi-Fi.
 
 ## 🌐 Remote Access
 
