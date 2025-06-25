@@ -76,6 +76,7 @@ See `/docs` folder for:
 
 ## ✅ Conclusions
 The Smart Parking System improves efficiency, reduces traffic and operational costs, and contributes to sustainable urban mobility. It offers an affordable and modular solution for environments like malls, hospitals, and business centers.
+
 ![Captura de pantalla 2025-06-24 212416](https://github.com/user-attachments/assets/d651870d-d4d6-4b7e-80e4-2eeef92b3f37)
 ![Captura de pantalla 2025-06-24 212456](https://github.com/user-attachments/assets/c2e498f2-2b3a-4da2-b521-ae1d3877b16c)
 ![Captura de pantalla 2025-06-24 212245](https://github.com/user-attachments/assets/95b05a77-7bb3-4ad1-b910-7e92a3b1387e)
